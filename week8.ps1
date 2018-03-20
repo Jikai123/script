@@ -7,3 +7,5 @@ new-item -path alias:np -value notepad  #create an alias "np" ->notepad, it stor
 function myfunc { 
 >>" This is my first function
 >>}                                ###create a function
+
+get-member -inputobject "this string" -Membertype property  #
